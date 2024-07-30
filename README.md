@@ -23,9 +23,9 @@ Site published at: https://github.com/Povilas88/shop-oop
 ## ✅ Tasks
 
 -   [ ] layout render
-    -   [ ] header
+    -   [x] header
     -   [ ] main content
-    -   [ ] footer
+    -   [x] footer
 -   [ ] navigation between pages
 
 ## 🧰 Getting Started
