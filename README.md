@@ -24,9 +24,14 @@ Site published at: https://github.com/Povilas88/shop-oop
 
 -   [ ] layout render
     -   [x] header
-    -   [ ] main content
+    -   [x] main content
     -   [x] footer
--   [ ] navigation between pages
+-   [x] navigation between pages
+-   [ ] product CRUD:
+    -   [ ] list
+    -   [ ] add
+    -   [ ] remove
+    -   [ ] update
 
 ## 🧰 Getting Started
 
@@ -50,7 +55,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
     ```sh
-    git clone https://github.com/Povilas88/shop-oop
+    git clone https://github.com/Povilas88/shop-oop.git
     ```
 2. Install NPM packages
     ```sh
