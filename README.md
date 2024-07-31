@@ -28,8 +28,8 @@ Site published at: https://github.com/Povilas88/shop-oop
     -   [x] footer
 -   [x] navigation between pages
 -   [ ] product CRUD:
-    -   [ ] list
-    -   [ ] add
+    -   [x] list
+    -   [x] add
     -   [ ] remove
     -   [ ] update
 
