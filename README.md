@@ -22,16 +22,16 @@ Site published at: https://github.com/Povilas88/shop-oop
 
 ## ✅ Tasks
 
--   [ ] layout render
+-   [x] layout render
     -   [x] header
     -   [x] main content
     -   [x] footer
 -   [x] navigation between pages
--   [ ] product CRUD:
+-   [x] product CRUD:
     -   [x] list
     -   [x] add
-    -   [ ] remove
-    -   [ ] update
+    -   [x] remove
+    -   [x] update
 
 ## 🧰 Getting Started
 

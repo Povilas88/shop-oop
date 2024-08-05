@@ -10,8 +10,8 @@ export class PageShopAddNew {
     formEvents() {
         this.formDOM = this.DOM.querySelector('form');
         const titleDOM = document.getElementById('shop_add_title');
+        const itemList = [];
         const localStorageData = localStorage.getItem('itemList');
-        let itemList = [];
 
         if (localStorageData) {
             const parsedLocalStorageData = JSON.parse(localStorageData);
@@ -21,8 +21,8 @@ export class PageShopAddNew {
         this.formDOM.addEventListener('submit', e => {
             e.preventDefault();
             itemList.push({
+                id: 'item_' + Date.now(),
                 title: titleDOM.value,
-                id: 'item' + Date.now(),
                 amount: 1,
             });
             localStorage.setItem('itemList', JSON.stringify(itemList));
